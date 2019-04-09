@@ -1,0 +1,403 @@
+
+
+body
+{
+	background: url(fond.jpg);
+	text-align: center;
+}
+
+header
+{
+	position: sticky;
+	top: 0;
+	min-width: 1100px;
+	height: 100px;
+	min-height: 60px;
+	background: #999;
+}
+
+nav
+{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	min-height: 60px;
+
+}
+
+nav ul
+{
+	width: 70%;
+	min-width: 800px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 30px;
+}
+
+nav a
+{
+	color: #fff;
+}
+
+#Telecharger
+{
+	display: block;
+	border: 1px solid #fff;
+	width: 200px;
+	height: 35px;
+	padding-top: 5px;
+	font-size: 24px;
+}
+
+#Telecharger:hover
+{
+	border: 1px solid #990;
+	background: #fff;
+	color: #999;
+}
+
+#presentation
+{
+	display: flex;
+	height: 600px;
+}
+
+#Hello
+{
+	width: 75%;
+	min-width: 800px;
+	background: url('fond-Hello.jpg') no-repeat;
+	background-size: cover;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+
+#info
+{
+	width: 25%;
+	min-width: 300px;
+	background: #999;
+}
+
+#photo
+{
+	width: 180px;
+	height: 180px;
+	padding-top: 30px;
+}
+
+#info div
+{
+	padding-top: 35px;
+}
+
+#logo-supinfo
+{
+	width: 3%;
+	min-width: 40px;
+}
+
+section h1
+{
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 35px;
+}
+
+section ul
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	min-width: 1100px;
+}
+
+section ul li
+{
+	max-width: 250px;
+}
+
+#CV
+{
+	min-width: 1100px;
+	width: 100%;
+	min-height: 500px;
+	background: #efffcc;
+	position: relative;
+	margin-top: -35px;
+}
+
+#CV section
+{
+	scroll-behavior: smooth;
+}
+
+#CV ul{
+	padding-top: 50px;
+}
+
+#benevolat{
+	min-width: 270px;
+}
+
+.cvsection
+{
+	min-width: 1100px;
+	width: 100%;
+	display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#CV h1
+{
+	text-transform: uppercase;
+}
+
+#competence
+{
+	min-height: 650px;	
+	text-align: left;
+	padding-left: 100px;
+}
+
+#competence h1
+{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #99cc00;
+}
+
+#competence ul
+{
+	padding-left: 10%;
+}
+
+#competence li
+{
+	margin-top: 55px;
+	font-size: 22px;
+	min-width: 950px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container
+{
+	background: #ccc;
+	height: 1px;
+	width: 36%;
+	min-width: 300px;
+	padding-left: 18%;
+	margin-top: 13px;
+	margin-right: 20%;
+}
+
+.loadbar
+{
+	background: #8bcc00;
+	height: 3px;
+	margin-left: -50%;
+	margin-top: -1px;
+}
+
+#web
+{
+	width: 130%; 
+}
+
+#dev
+{
+	width: 70%; 
+}
+
+#plsql
+{
+	width: 120%; 
+}
+
+#windows
+{
+	width: 100%; 
+}
+
+#linux
+{
+	width: 80%; 
+}
+
+#foot-page
+{
+	display: flex;
+	justify-content: space-around;
+	min-width: 1100px;
+	min-height: 470px;
+	background: #efffcc;
+	padding-top: 30px;
+}
+
+#citation
+{
+	width: 550px;
+	padding-top: 100px;
+	font-size: 50px;
+	padding-right: 40px;
+	padding-left: 60px;
+}
+
+#philo
+{
+	font-size: 28px;
+	margin-top: -32px;
+	text-align: right;
+}
+
+#citation footer
+{
+	margin-top: 90px;
+}
+
+#contact
+{
+	width: 550px;
+	padding-left: 60px;
+	padding-right: 40px;
+}
+
+#contact h1
+{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#nomail input
+{
+	width: 45%;
+}
+
+#mail
+{
+	margin-left: 40px;
+}
+
+#message input, textarea
+{
+	width: 100%;
+	margin-top: 25px;
+}
+
+#message textarea
+{
+	min-height: 150px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+footer img
+{
+	width: 35px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+form
+{
+	transition: all 3s ease-in-out;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.form-control
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #999;
+	font-size: 18px;
+}
+
+.form-control textarea
+{
+	height: 900px;
+}
+
+.submit-control
+{
+	background: transparent;
+	border: none;
+	color: #5ED162;
+	font-size: 45px;
+	margin-top: 20px;
+}
+
+.submit-control:hover
+{
+	color: #999;
+	cursor: pointer;
+}
